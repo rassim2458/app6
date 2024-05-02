@@ -19,9 +19,6 @@ const isLoggedIn = true;
 const DashboardLayout = () => {
 
   const dispatch = useDispatch();
-  
-
-
 
   const { isLoggedIn } = useSelector((state) => state.auth);
   const { conversations, current_conversation } = useSelector(
@@ -91,6 +88,11 @@ const DashboardLayout = () => {
     };
   }, [isLoggedIn, socket]);
 
+  
+
+
+
+  
 
 
   if (!isLoggedIn) {

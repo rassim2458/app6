@@ -8,7 +8,7 @@ import { Search, SearchIconWrapper, StyledInputBase } from '../../components/Sea
 import ChatElement from '../../components/ChatElement';
 import { socket } from '../../socket';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchDirectConversations } from "../../redux/slices/conversation";
+import { FetchDirectConversations } from "../../redux/slices/conversation";
 
 
 const user_id = window.localStorage.getItem("user_id")
